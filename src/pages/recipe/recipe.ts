@@ -11,7 +11,7 @@ import { RecipesService } from '../../services/recipes';
 })
 export class RecipePage implements OnInit {
   recipe: Recipe;
-  index: Number;
+  index: number;
   constructor(
      public navCtrl: NavController,
      public navParams: NavParams,
